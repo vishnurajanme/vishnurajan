@@ -1,0 +1,55 @@
+baseURL = "https://vishnurajanme.github.io"
+languageCode = "en-US"
+title = "Welcome to Dr. Vishnu Rajan's personal digital space'"
+# Enable comments by entering your Disqus shortname
+disqusShortname = ""
+# Enable Google Analytics by entering your tracking code
+googleAnalytics = ""
+theme = "hugo-sustain"
+enableEmoji = true
+
+[permalinks]
+
+[params]
+  avatar = "img/profile.jpg"
+  author = "Dr. Vishnu Rajan"
+  description = "A digital repo of my own world"
+
+  # Custom assets can be linked with their paths relative to static/
+  custom_css = []
+  custom_js  = []
+
+[params.social]
+  Github        = "vishnurajanme"
+  Email         = "vishnurajanme@gmail.com"
+  Facebook      = "imvishnurajan"
+  LinkedIn      = "vishnurajanme"
+  Google		= "https://g.dev/vishnurajan"
+  Playstore		= "https://play.google.com/store/apps/dev?id=5348400494762920729"
+
+## Main Menu
+[[menu.main]]
+  name = "Expertise"
+  identifier = "expertise"
+  weight = 200
+  url = "/expertise/"
+[[menu.main]]
+  name = "Portfolio"
+  identifier = "portfolio"
+  weight = 400
+  url = "/portfolio/"
+[[menu.main]]
+  name = "achievements"
+  identifier = "achievements"
+  weight = 100
+  url = "/achievements/"
+[[menu.main]]
+  name = "Projects"
+  identifier = "projects"
+  weight = 300
+  url = "/projects1/"
+[[menu.main]]
+  name = "Trainings"
+  identifier = "training"
+  weight = 500
+  url = "/training/"
